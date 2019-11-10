@@ -13,6 +13,10 @@ const record = [
 function superbowlWin(record){
   let result=record.find(e=> e.result==="W")
   if(result){
-    return 
+    return result.year;
+  }
+  else
+  {
+    return ""
   }
 }
