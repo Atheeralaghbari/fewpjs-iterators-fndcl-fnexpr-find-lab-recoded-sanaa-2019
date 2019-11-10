@@ -11,7 +11,5 @@ const record = [
 ]
 
 function superbowlWin(record){
-  let result=record.find(e=>{if(e.result==="W"){
-    
-  }})
+  let result=record.find(e=> e.result==="W")
 }
